@@ -111,6 +111,8 @@ export const sendCustomerNotification = async (customerData: any, bookingInfo: a
       <li><strong>Duration:</strong> ${bookingInfo.duration}</li>
     </ul>
     <p>Thank you for choosing our service!</p>
+    <p>Calgary Chauffeur Services</p>
+    <p>if you need help, please contact us at +1 4038503499 or email us at calgarychuaffeurservice@gmail.com</p>
   `;
 
   await transporter.sendMail({
